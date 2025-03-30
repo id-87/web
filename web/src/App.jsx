@@ -1,19 +1,15 @@
 import React from 'react'
+import MovieCard from './components/MovieCard'
 
 const App = () => {
   return (
     <>
+    <MovieCard movie={{title: "Tim's Film", release_date: 2025}}/>
+    <MovieCard movie={{title: "Joe's Film", release_date: 2023}}/>
     
     </>
   )
 }
 
-function Text({display}){
-  return (
-    <div>
-      <p>{display}</p>
-    </div>
-  )
-}
 
 export default App
