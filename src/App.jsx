@@ -2,8 +2,8 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import MovieCard from './components/MovieCard'
 import Home from './components/pages/Home'
-import Favouraites from './components/pages/favouraites'
-import './index.css'
+import Favouraites from './components/pages/favorites'
+import './css/App.css'
 import Navbar from './components/Navbar'
 const App = () => {
   
