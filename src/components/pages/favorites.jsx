@@ -8,7 +8,7 @@ function Favouraites(){
 
     if (favorites){
         return <div className='favorites'>
-            <h2>Your favorites</h2>
+            <h2>Your favouraites</h2>
             <div className="movies-grid">
         {favorites.map((movie) => (
             movie.title.toLowerCase().startsWith(searchQuery) &&
